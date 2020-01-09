@@ -1,0 +1,277 @@
+/**-----Style sheet for Archive Dance Collective Web Page-----**/
+
+/***********************************************
+*                                              *
+*               CONSTRUCTION PAGE              *
+*                                              *
+************************************************/
+.container {
+    font-family: 'Chalkduster', fantasy;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+
+/***********************************************
+*                                              *
+*                   HOME PAGE                  *
+*                                              *
+************************************************/
+/** HEADER AND NAVIGATION BAR **/
+body {
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', serif;
+
+ }
+ 
+ #logo { 
+   float: left;
+   display: inline-block;
+   height: 100px;
+ }
+ 
+ .clear {
+   clear: both;
+ }
+ 
+ 
+ #nav {
+     background-color: black;
+     font-family: 'Marker Felt', fantasy;
+     color: rosybrown ;/* header text color*/
+     text-align: left;
+     width: 100%;
+ 
+ }
+ .nav {
+   float: right;
+   list-style: none;    /*gets rid of bullet points*/ 
+     text-align: left;
+     /*padding: 0px -10px 0px -10px; */
+   margin: 0;
+ }
+ .nav > li {  /*max-width: 768px*/
+     display:Inline-block;
+     padding: 10px 9px 10px 9px; /*nav bar text*/
+ }
+ 
+  .nav > li a {                                               
+      text-decoration: none;
+      color: rosybrown;
+      font-size: 14px;
+      padding: 5px 0px 5px 0px
+  }
+ 
+  .nav > li > a:hover {
+      color: paleturquoise;
+  }
+
+  /**-----------------------------------------------**/
+  /** PHOTO SLIDER **/
+  #slider {
+    overflow: hidden;
+    width: 60%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    
+  }
+  .carousel-item img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/**-----------------------------------------------**/
+ /** BIO **/
+#biography{
+    padding: 50px;
+}
+.directorWords{
+    text-align: right;
+}
+.col-md-6{
+    font-family: 'Chalkduster', fantasy;
+}
+.about-content{
+    font-family: 'Marker Felt', fantasy;
+    
+}
+.quote{
+    font-family: 'Marker Felt', fantasy;    
+}
+
+
+
+/***********************************************
+*                                              *
+*              DANCERS PAGE                    *
+*                                              *
+************************************************/
+
+#dancers{
+    padding: 50px;
+}
+.col-sm{
+    font-family: 'Marker Felt', fantasy;
+    padding-bottom: 75px;
+}
+
+/***********************************************
+*                                              *
+*             PERSONAL PAGE                    *
+*                                              *
+************************************************/
+
+/**-----------------------------------------------**/
+ /** NAVIGATION PLAYLIST **/
+#sideNav {
+    background-color: black;
+    font-family: 'Marker Felt', fantasy;
+    text-align: left;
+    width: 170px;
+    height: 570px;
+    overflow-y: scroll;
+    text-decoration: none;
+   
+    float: left;
+    
+
+}
+.nav-flex-column {
+    background-color: black;    
+    float: left;
+    list-style: none;    /*gets rid of bullet points*/ 
+    text-align: left;
+    padding-top: 20px;
+    margin: 0;
+    overflow-y: auto;
+}
+.nav-flex-column > li {  /*max-width: 768px*/
+    display:Inline-block;
+    padding: 10px 9px 10px 9px; /*nav bar text*/
+    
+}
+
+ .nav-flex-column > li a {                                               
+     text-decoration: none;
+     color: rosybrown;
+     font-size: 14px;
+     padding: 10px;
+     
+ }
+
+ .nav-flex-column > li > a:hover {
+     color: paleturquoise;
+ }
+
+
+#playlist {
+    display:table;
+}
+.playlist{
+    padding:8px;
+    color: #773E3F;
+    
+    
+}
+#playlist li{
+    cursor:pointer;
+    padding:8px;
+    color: #773E3F; /*playlost text*/
+    
+   
+}
+
+
+#playlist li:hover{
+    color:rosybrown;                        
+}
+/**-----------------------------------------------**/
+ /** VIDEO PLAYER **/
+#videoarea {
+    float:left;
+    width:640px;
+    height:360px;
+    margin:10px;    
+    border:1px solid silver;
+}
+
+/**-----------------------------------------------**/
+ /** BIO AND QUOTE**/
+ #biography2{
+    padding: 50px;
+    
+   
+}
+.col-md-6{
+    font-family: 'Chalkduster', fantasy;
+}
+
+.DancerBio{
+    font-family: 'Marker Felt', fantasy;   
+    padding-left: 135px;
+    height: 410px;
+  
+    overflow-y: scroll;
+    text-decoration: none;
+    text-align: left;
+   
+
+}
+#Credits{
+    font-family: 'Marker Felt', fantasy;   
+    padding-left: 135px;
+    height: 175px;
+  
+    overflow-y: scroll;
+    text-decoration: none;
+    text-align: left;
+   
+
+}
+
+
+.pageQuote{
+    font-family: 'Bradley Hand', cursive;
+    font-size: large;
+    
+}
+
+
+/***********************************************
+*                                              *
+*              FORM                             *
+*                                              *
+************************************************/
+form{
+    width:300px;
+    color: cornflowerblue;
+    border: 1px solid;
+    padding-left: 10px;
+}
+
+input{
+    box-shadow: 0 0 4px slateblue;
+    border: 1px solid slateblue;
+}
+
+::placeholder{
+    color: peru;
+    opacity: 1;
+}
+
+#contact{
+    color: black
+}
+.email{
+    color: darkcyan
+}
+.ig{
+    color: darkblue
+}
